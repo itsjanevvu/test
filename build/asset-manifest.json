@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.37bdbb7a.css",
+    "main.js": "/static/js/main.8299641e.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/introbg.png": "/static/media/introbg.cb4e2c8c85268b1aabe4.png",
+    "static/media/Inter-SemiBold.otf": "/static/media/Inter-SemiBold.3aa40e610d938943736b.otf",
+    "index.html": "/index.html",
+    "main.37bdbb7a.css.map": "/static/css/main.37bdbb7a.css.map",
+    "main.8299641e.js.map": "/static/js/main.8299641e.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37bdbb7a.css",
+    "static/js/main.8299641e.js"
+  ]
+}
