@@ -25,11 +25,11 @@ export default function Aboutme (){
                     <h3 className = "intro-subtitle">An engineering student with a background in <span className= "design">design</span></h3>
 
 
-                    <div className= "aboutmedescrip">
+                    {/* <div className= "aboutmedescrip">
                         <h4>I am a first year systems design engineering student at UWaterloo with an interest in healthcare, creative design, and anime. Combining both my technical and design skills, I create human centered solutions around problems</h4>
-                        <h4>.</h4>
+                       
                 </div>
-                
+                 */}
 
                 </div>
 

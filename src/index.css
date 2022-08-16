@@ -1,9 +1,13 @@
+    html
     body {
-        margin: 0;
-        /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; */
-        -webkit-font-smoothing: antialiased;
+        
         -moz-osx-font-smoothing: grayscale;
         scroll-behavior: smooth;
+        overflow-x:hidden;
+
+        width:100%;
+        
+        overflow-x: hidden;
     }
     
      :root {
@@ -21,10 +25,7 @@
         font-family: inter;
         src: url(Inter-SemiBold.otf) format(truetype);
     }
-    /* @font-face {
-        font-family: interr;
-        src: url(Inter-Medium.otf) format(woff);
-    } */
+
     
     h1 {
         font-family: "Inter", sans-serif;
@@ -77,44 +78,34 @@
     }
     
     nav {
-        height: 70px;
-        padding: 20px 36px;
-        box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+        height: 2px;
+        width: 100%;
+        padding: 3vw 2vw;
+        /* box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1); */
         display: flex;
         align-items: center;
+        border: 1px solid red;
     }
     
     .pages-container {
         margin-left: auto;
+        gap: 2vw;
         align-items: baseline;
     }
 
-    @media all and (max-width: 500px){
-        .pages-container{
-
-
-            margin: 0%;
-            size: 1vw;
-            align-items: baseline;
-
-        }
-
-        li{
-            font-size: 2.2vw;
-        }
-        
-    }
+   
     
     nav ul {
         float: right;
-        margin-right: auto;
-        width: 600px;
+        /* margin-right: auto; */
+        /* width: 600px; */
     }
-    
+
+
     nav ul li {
         list-style: none;
         display: inline-block;
-        margin-left: 70px;
+        /* margin-left: 70px; */
         font-family: "Inter", sans-serif;
         font-weight: 500px;
     }
@@ -148,16 +139,17 @@
         margin: auto;
     }
     
-    .aboutmedescrip {
+    /* .aboutmedescrip {
         width: 506px;
         height: 144px;
         line-height: 150%;
-    }
+    } */
     
     .skills-container {
         background-color: white;
         height: auto;
-        padding-left: 20%;
+        margin: auto;
+        /* padding-left: 20%; */
         display: flex;
         padding-top: 2%;
         min-width: (70%, 5vw);
@@ -264,11 +256,38 @@
 
 
     
+.aboutmedescrip {
+    width: 30vw;
 
-@media all and (max-width: 750px){
+ 
+    font-size: 15px;
+    border: 1px solid red;
+
+}
+
+    
+
+@media only screen and (max-width: 375px){
+
+    html,body, .section{
+        width:300%;
+        height:100%;
+        margin: 0%;
+        padding: 0%;
+        overflow-x: hidden;
+    }
+
+    .aboutmedescrip{
+        min-width: 500px;
+        font-size: 1 vw;
+        border: 1px solid rgb(15, 28, 94);
+    }
+
+
+   
     div.intro{
-        min-width: 80%;
-        min-height: 120%;
+        min-width: 300px;
+        min-height: auto;
 
     }
 
@@ -281,7 +300,34 @@
     }
 
 div.intro-subtitle{
-    min-width: 50px;
+    min-width: 50px;}
+
+
+
+    .intro-text{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2vw;
+    }
+    .intro-buttons{
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    div.intro-buttons{
+        margin: 20px;
+    }
+
+    .resume{
+        margin-top: 2vw;
+        margin-left: 0vw;;
+    }
+
+   
+
+    
 
 }
 
@@ -298,12 +344,7 @@ div.intro-subtitle{
 
 
 
-.aboutmedescrip {
-    max-width: 280px;
-    min-width: 200px;
-    font-size: 2.7vw;
-    
-}
+
 
 h2.skills, h2.intro-title, h2.projects-title{
     font-size:calc(12px + 1.5vw);
@@ -311,9 +352,6 @@ h2.skills, h2.intro-title, h2.projects-title{
 }
 
 
-
-
-}
     button {
         gap: 120px;
         background: #D34545;
@@ -477,39 +515,13 @@ h2.skills, h2.intro-title, h2.projects-title{
         color: #625959;
     }
 
-    @media all and (max-width: 600px) {
-        .intro-text{
-            display: flex;
-            flex-direction: column;
-            margin-top: 2vw;
-        }
-        .intro-buttons{
-            display: flex;
-            flex-direction: column;
+   
 
-
-        }
-
-        div.intro-buttons{
-            margin: 20px;
-        }
-
-        .resume{
-            margin-top: 2vw;
-            margin-left: 0vw;;
-        }
-        /* .intro{
-            margin-left: auto;
-        } */
-
-
-    }
-
-    @media all and (max-width: 700px){
+    /* @media all and (max-width: 700px){
         .card{
             size: 80%;
         }
-    }
+    } */
 
   
     
