@@ -1,0 +1,516 @@
+    body {
+        margin: 0;
+        /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        scroll-behavior: smooth;
+    }
+    
+     :root {
+        --clr-redcolour: #D34545;
+        --clr-lightred: #FFF4F4;
+        --clr-yellowcolour: #FFBA54;
+        --clr-fontgray: #696767;
+    }
+    
+    code {
+        /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace; */
+    }
+    
+    @font-face {
+        font-family: inter;
+        src: url(Inter-SemiBold.otf) format(truetype);
+    }
+    /* @font-face {
+        font-family: interr;
+        src: url(Inter-Medium.otf) format(woff);
+    } */
+    
+    h1 {
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 3vw;
+       
+        margin-top: 2%;
+    }
+    
+    .intro-text h1 {
+        color: white;
+        line-height: 5vw;
+        /* padding-bottom: -50%; */
+    }
+    
+    h2 {
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+    }
+    
+    h3 {
+        color: #625959;
+        font-family: "Inter";
+        font-weight: 600;
+    }
+    
+    h4 {
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        color: #625959;
+    }
+
+    h4.split{
+        size: 5vw;
+      
+    }
+/* 
+    li{
+        size:calc(12px + 1vw);
+    } */
+    
+    h3.skillslist {
+        font-family: "Inter";
+        font-weight: 700;
+    }
+    
+    .intro-title {
+        color: var(--clr-redcolour);
+        
+    }
+    
+    nav {
+        height: 70px;
+        padding: 20px 36px;
+        box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+    }
+    
+    .pages-container {
+        margin-left: auto;
+        align-items: baseline;
+    }
+
+    @media all and (max-width: 500px){
+        .pages-container{
+
+
+            margin: 0%;
+            size: 1vw;
+            align-items: baseline;
+
+        }
+
+        li{
+            font-size: 2.2vw;
+        }
+        
+    }
+    
+    nav ul {
+        float: right;
+        margin-right: auto;
+        width: 600px;
+    }
+    
+    nav ul li {
+        list-style: none;
+        display: inline-block;
+        margin-left: 70px;
+        font-family: "Inter", sans-serif;
+        font-weight: 500px;
+    }
+    
+    .split {
+        display: flex;
+        gap: 20px;
+    }
+    
+    section {
+        padding: 8%;
+        height: 300px;
+    }
+    
+    .red-bg {
+        background-image: url(./introbg.png);
+        height: 400px;
+        padding: auto;
+    }
+    
+    .red-bg img {
+        max-width: 100%;
+      
+        height: auto;
+        /* margin-left: -6rem; */
+    }
+    
+    .intro-bg {
+        /* background-color: rgb(161, 21, 199); */
+        height: 200px;
+        margin: auto;
+    }
+    
+    .aboutmedescrip {
+        width: 506px;
+        height: 144px;
+        line-height: 150%;
+    }
+    
+    .skills-container {
+        background-color: white;
+        height: auto;
+        padding-left: 20%;
+        display: flex;
+        padding-top: 2%;
+        min-width: (70%, 5vw);
+    }
+    
+    .skills-cotainer>h2 {
+        color: var(--clr-yellowcolour);
+       
+    }
+    
+    .intro-text {
+        margin: auto;
+        margin-left: 20%;
+        size: 100%;
+        line-height: 2vw;
+
+        /* width: max(300px, 20%, 2vh) */
+    }
+
+    
+    .intro-buttons {
+        /* position: fixed; */
+        margin-top: 25%;
+    }
+    
+    .intro>h3 {
+        font-size:calc(8px + 2vw);
+        
+    } 
+
+    
+.intro-subtitle{
+    max-width: 600px;
+    min-width: 70px;
+ 
+    /* font-size:calc(12px + 2vw); */
+
+} 
+
+    .intro>h4 {
+        font-size: 1.5vw;
+        width: 350px;
+    }
+    
+    span.design {
+        font-family: "Inter", sans-serif;
+        font-weight: 700px;
+        color: rgb(216, 87, 89);
+    }
+    
+    span.badge {
+        display: inline-block;
+        background-color: rgb(236, 235, 235);
+    }
+    
+    .end-bg {
+        height: 200px;
+        margin-left: 30%;
+        display: flex;
+    }
+    /* .end-bg img {
+        max-width: 160%;
+        height: auto;
+    }
+    
+    .endtext-container {
+        width: 1rem;
+    } */
+
+
+    .aboutme-bg{
+        margin: auto;
+    }
+    
+    .aboutme-bg img {
+        max-width: 80%;
+        height: auto;
+        min-width: 200px;
+      
+        height: auto;
+        padding-left: 5%;
+    }
+    
+    .intro-title {
+        color: var(--clr-redcolour);
+        font-family: inter;
+        font-size: 4vw;
+    }
+    
+    .skills {
+        color: var(--clr-yellowcolour);
+        /* font-family: inter; */
+        font-size: 3vw;
+    }
+    /* .sized-img {
+    width: 80%;
+    height: 80%;
+} */
+
+/* .responsive {
+   
+} */
+
+
+
+    
+
+@media all and (max-width: 750px){
+    div.intro{
+        min-width: 80%;
+        min-height: 120%;
+
+    }
+
+    .gradient-bg{
+        height: 400px;
+    }
+
+    h4.intro{
+      font-size: 3vw;
+    }
+
+div.intro-subtitle{
+    min-width: 50px;
+
+}
+
+
+   
+
+   
+
+    /* .responsive{
+        min-width: 80%;
+        height: auto;
+
+    } */
+
+
+
+.aboutmedescrip {
+    max-width: 280px;
+    min-width: 200px;
+    font-size: 2.7vw;
+    
+}
+
+h2.skills, h2.intro-title, h2.projects-title{
+    font-size:calc(12px + 1.5vw);
+
+}
+
+
+
+
+}
+    button {
+        gap: 120px;
+        background: #D34545;
+        color: white;
+        border-radius: 5px;
+        padding: 1%;
+        border-style: none;
+        width: 126px;
+        height: 42px;
+    }
+    
+    button:hover {
+        background: #a41f1f;
+    }
+    
+    .resume {
+        margin-left: 2vw;
+        background-color: white;
+        color: black;
+    }
+    
+    .resume:hover {
+        background-color: rgb(217, 232, 242);
+    }
+    
+    .card {
+        place-items: center;
+        border: 1px red;
+        background-color: var(--clr-lightred);
+        gap: 20px;
+        padding: 5%;
+        align-content: center;
+        width: 50%;
+
+        min-width: 20%;
+        margin-block: 5%;
+        margin-left: 20%;
+        margin-right: 20%;
+        border-radius: 5%;
+    }
+    
+    .card-text h3 {
+        margin-top: -2%;
+    }
+    
+    .card-text button {
+        border-radius: 30px;
+        margin-top: 3%;
+    }
+    
+    .skills-img {
+        /* max-width: 40%;
+        height: auto; */
+        padding-left: 35%;
+        padding-top: 4%;
+        position: absolute;
+        max-width: 20%;
+        height: auto;
+    }
+    
+    .card:hover {
+        /* transform: scale(1.1, 1.1);
+        box-shadow: 1px 1px 30px #888888;
+        transition: 1s ease; */
+    }
+    
+    .section {
+        padding: 5em;
+    }
+    
+    .card img {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .card-text {
+        margin-left: 4rem;
+        color: rgb(89, 79, 79);
+    }
+    
+    h3.card-text {
+        font-family: "Inter";
+        font-weight: 300;
+        color: gray;
+    }
+    
+    .card-title {
+        color: var(--clr-redcolour);
+    }
+    
+    .card-bg {
+        background-color: antiquewhite;
+    }
+    
+    .projects-title h2 {
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        padding-left: 20%;
+        font-size: 3vw;
+        color: var(--clr-redcolour);
+    }
+    
+    .padding {
+        padding-bottom: 5rem;
+    }
+    /*     
+    .tech-img {
+        width: 80%;
+        height: 90%;
+    } */
+    
+   
+    
+    /* .container img {
+        max-width: 50%;
+        height: auto;
+    } */
+    
+    footer {
+        height: 110%;
+        padding-left: 80%;
+    }
+    
+    .footer-text h5 {
+        font-family: "Inter";
+        font-weight: 100%;
+        color: var(--clr-fontgray)
+    }
+    /* h5.footer-text {
+        font-family: "Inter", sans-serif;
+        font-weight: 100%;
+    } */
+    
+    div.typewriter {
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+        font-size: 3rem;
+        color: white;
+        padding-top: -50px;
+        max-width: 400px;
+    }
+    
+    #Aboutme {
+        behavior: smooth;
+        align-items: center;
+    }
+    
+    #Projects {
+        behavior: smooth;
+    }
+    
+    button.chat {
+        background-color: #dd5b0b;
+    }
+    
+    button.chat:hover {
+        background-color: #e78a51;
+    }
+    
+    h2.Logo {
+        color: #625959;
+    }
+
+    @media all and (max-width: 600px) {
+        .intro-text{
+            display: flex;
+            flex-direction: column;
+            margin-top: 2vw;
+        }
+        .intro-buttons{
+            display: flex;
+            flex-direction: column;
+
+
+        }
+
+        div.intro-buttons{
+            margin: 20px;
+        }
+
+        .resume{
+            margin-top: 2vw;
+            margin-left: 0vw;;
+        }
+        /* .intro{
+            margin-left: auto;
+        } */
+
+
+    }
+
+    @media all and (max-width: 700px){
+        .card{
+            size: 80%;
+        }
+    }
+
+  
+    
+    
